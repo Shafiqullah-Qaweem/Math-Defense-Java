@@ -9,6 +9,7 @@ import java.util.Random;
 public class MathDefense extends JFrame {
 
     public static void main(String[] args) {
+        System.setProperty("sun.java2d.uiScale", "2.0"); 
         SwingUtilities.invokeLater(() -> {
             MathDefense game = new MathDefense();
             game.setVisible(true);
